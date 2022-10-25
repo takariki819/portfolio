@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 90%;
+  margin: 32px auto;
+  text-align: center;
+  background: gray;
+  padding: 6px;
+  height: 320px;
+  border-radius: 12px;
+  box-shadow: 4px 4px rgba(112, 111, 111, 0.568627451);
+}
+main form {
+  text-align: left;
+}
+main form p {
+  font-weight: 550;
+  margin: 46px 0 6px 0;
+}
+main form input {
+  width: 95%;
+  font-size: 18px;
+  border: 1px solid #d3cfcf;
+  box-shadow: 2px 2px #d3cfcf;
+}
+main form input[type=submit] {
+  width: 18%;
+  display: block;
+  margin-left: auto;
+  margin-right: 5%;
+  margin-top: 10%;
+  box-shadow: none;
+  background: white;
+  border-radius: 6px;
+  padding: 2px 4px;
+  color: black;
+}
+
+.none {
+  opacity: 0.3;
+  touch-action: none;
+}
+
+dialog {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 65%;
+  text-align: center;
+}
+dialog span {
+  color: red;
+}
+/*# sourceMappingURL=register.css.map */
